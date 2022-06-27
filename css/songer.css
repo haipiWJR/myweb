@@ -1,0 +1,175 @@
+
+		#header {
+			height: 70px;
+			background-color: #a7e0eb;
+			color: #000;
+		}
+		/* 设置导航条样式 */
+		#header .nev {
+			width: 80%;
+			height: 70px;
+			margin: 0 auto;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		#header .nev .menu {
+			width: 50%;
+		} 
+		#header .nev .menu ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+	
+		#header .nev .menu .menu-1 {
+			font-size: 20px;
+			line-height: 48px;
+			position: relative;
+		}
+		#header .nev .menu .menu-1 img{
+			width: 48px;
+			height: 48px;
+			border-radius: 50%;
+		}
+	
+		#header .nev .menu .menu-1 .menu-2 {
+			display: none;
+			position: absolute;
+			line-height: 20px;
+			left: -15px;
+			top: 38px;
+			width: 150px;
+			border: #B0B0B0 1px solid;
+			z-index: 1000;
+		}
+		#header .nev .menu .menu-1 .menu-2 li {
+			box-sizing: border-box;
+			padding: 10px;
+			text-align: center;
+			font-size: 18px;
+		}
+		#header .nev .menu .menu-1:hover .menu-2 {
+			display: block;
+			background-color: white;
+			color: #000000;
+		}
+		#header .nev .menu .menu-1 .menu-2 li:hover {
+			color: #a6e1e6;
+		}
+		/* 搜索框和用户登录 */
+		#header .nev .right {
+			width: 40%;
+			line-height: 70%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		#header .nev .right .search input {
+			width: 300px;
+			height: 40px;
+			padding: 5px 20px;
+			font-size: 20px;
+			border-radius: 17px;
+		}
+		#header .nev .right .search input:focus {
+			outline: none;
+			border: #87CEEB 3px solid;
+		}
+		/* 菜单 */
+		#subnev {
+			background-color: #fff;
+		}
+		#subnev .mod_top_subnav {
+			margin: 0 auto;
+			width: 70%;
+			display: flex;
+		}
+		#subnev .mod_top_subnav .top_subnav__item {
+			flex: 1;
+			font-size: 18px;
+			height: 51px;
+			line-height: 51px;
+		}
+		#subnev .mod_top_subnav .top_subnav__item a:hover{
+			color: #9fd7de;
+		}
+		#subnev .mod_top_subnav .top_subnav__item a {
+			color: #000000;
+		}
+		#active a{
+			color: #9fd7de !important;
+		}
+		/* 歌手 */
+		.songer{
+			height: 500px;
+			width: 90%;
+			margin: 20px auto;
+			background-color: #000000;
+		}
+		.songer img{
+			width: 100%;
+			height: 100%;
+		}
+		.songer_classily{
+			margin: 30px auto;
+			width: 80%;
+		}
+		.songer_classily .songer_table{
+			border: none;
+		}
+		.songer_classily .songer_table td{
+			border: none;
+			padding: 30px;
+		}
+		.active{
+			background-color: lightblue;
+		}
+		.songer_list{
+			margin: 30px auto;
+			width: 90%;
+		}
+		.songer_list .songer_list_item{
+			margin: 30px 0;
+			display: flex;
+		}
+		.songer_list .songer_list_item li{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			flex: 1;
+			width: 140px;
+			height: 300px;
+		}
+		.songer_list .songer_list_item li img{
+			text-align: center;
+			width: 140px;
+			height: 140px;
+			border-radius: 50%;
+		}
+		.songer_list .songer_list_item li h4{
+			margin: 20px;
+		}
+		/* 页脚 */
+		#footer {
+			background-color: rgba(0, 0, 0, .1);
+			width: 100%;
+			padding: 30px;
+			margin-top: 30px;
+			display: flex;
+		}
+		
+		#footer .footer_item {
+			flex: 1;
+			width: 30%;
+			margin: 10px 20px;
+		}
+		#footer .footer_item li{
+			line-height: 30px;
+		}
+		#footer .footer_item li:nth-child(1){
+			font-size: 23px;
+		}
+	
